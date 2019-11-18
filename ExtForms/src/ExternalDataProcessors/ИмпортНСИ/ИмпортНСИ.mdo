@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="517fd2a7-40c2-4deb-b816-98dea0e36f67">
+  <producedTypes>
+    <objectType typeId="6a94ec56-aba3-4bd3-b19d-3c7ba5d1e4bd" valueTypeId="7a0a917d-71a5-41af-9176-f054542fb546"/>
+  </producedTypes>
+  <name>ИмпортНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Импорт НСИ</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="d1529f5d-0eeb-4ef4-951a-7885322718f5"/>
+</mdclass:ExternalDataProcessor>

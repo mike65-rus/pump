@@ -985,7 +985,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.ТестТЗ2</types>
+      <types>ExternalDataProcessor.ТестТЗ2</types>
     </valueType>
     <view>
       <common>true</common>

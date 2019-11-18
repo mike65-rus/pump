@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2c87df9-ad76-4708-bf2b-32ccf53cc09e">
+  <producedTypes>
+    <managerType typeId="3e9dc63a-98ec-4b90-923c-6d5d06242c1f" valueTypeId="06d1059c-c015-423b-97bf-f48dee51a95d"/>
+    <valueManagerType typeId="4a6f8094-98d3-4829-a23a-352134a97ee1" valueTypeId="1fa8e8c0-6a4f-4b0b-b69b-8f46d3458c58"/>
+    <valueKeyType typeId="15fa1ad1-9573-4afc-a77f-ef5bc4d98838" valueTypeId="9f3c482c-4c67-4238-8197-a7c49d31e0bb"/>
+  </producedTypes>
+  <name>ПапкаСервераWindows</name>
+  <synonym>
+    <key>ru</key>
+    <value>Папка сервера windows</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

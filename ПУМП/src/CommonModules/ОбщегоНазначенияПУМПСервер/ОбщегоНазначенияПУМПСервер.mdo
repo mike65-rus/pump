@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76382bf3-4d53-4e31-b71d-ec893325eb12">
+  <name>ОбщегоНазначенияПУМПСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения ПУМПСервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

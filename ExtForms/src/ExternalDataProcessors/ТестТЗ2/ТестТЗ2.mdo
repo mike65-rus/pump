@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b622a27-a4e5-42ca-a96b-0bc7eb9b8a36">
+  <producedTypes>
+    <objectType typeId="c905eb6b-7d80-425f-a075-808bfd51c726" valueTypeId="1d436cb9-7388-4bca-8e87-aefdee1292ca"/>
+  </producedTypes>
+  <name>ТестТЗ2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест т з2</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="32d89a3a-f5eb-46f2-9597-c940085d9eb8"/>
+  <defaultForm>ExternalDataProcessor.ТестТЗ2.Form.Форма</defaultForm>
+  <attributes uuid="141be6db-305a-4716-a249-616a61d6d703">
+    <name>ТЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЗ</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cf1b5410-dbcd-45b1-9206-51f5dca676b8">
+    <name>ВыбраннаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбранная дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="86ee3ece-7407-40ed-a210-fca15d183fa9">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c516c706-3fe8-4d7f-a23f-5e59d4a3fb9b">
+    <name>ВидСтационара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид стационара</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="75ddc965-0c78-4a1e-b01b-e6e39982e67b">
+    <name>ДатаОбновленияСтационар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления стационар</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b19d36b4-3bbe-45bb-b406-f0e87b8aff69">
+    <name>ДатаОбновленияДневнойСтационар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления дневной стационар</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4a95eac4-04a1-492f-b7eb-d434d8eb742d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

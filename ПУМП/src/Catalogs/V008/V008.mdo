@@ -7,15 +7,15 @@
     <listType typeId="8d733d00-8fc7-4181-b059-51c4e580f063" valueTypeId="bac9fa13-3239-4a45-bd5a-37b9c0988de2"/>
     <managerType typeId="c26866bc-c447-430e-a8e6-27aa92a850ca" valueTypeId="38352f2c-cea9-4341-9ddc-ee8398ce28d3"/>
   </producedTypes>
-  <name>V</name>
+  <name>V008</name>
   <synonym>
     <key>ru</key>
     <value>ВидыМедицинскойПомощи</value>
   </synonym>
   <comment>Классификатор Видов Медицинской Помощи (V006)</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.V.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.V.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.V008.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.V008.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

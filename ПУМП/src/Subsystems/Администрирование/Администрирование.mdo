@@ -97,7 +97,5 @@
   <content>CommonForm.УстановленныеИсправления</content>
   <content>DataProcessor.НастройкаСтандартногоИнтерфейсаOData</content>
   <content>Catalog.ВнешниеКомпоненты</content>
-  <content>Constant.ПапкаСервераWindows</content>
-  <content>Constant.ПапкаСервераLinux</content>
   <content>Catalog.НастройкиПУМП</content>
 </mdclass:Subsystem>

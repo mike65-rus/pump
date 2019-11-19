@@ -1521,6 +1521,8 @@
   <catalogs>Catalog.V006</catalogs>
   <catalogs>Catalog.НастройкиПУМП</catalogs>
   <catalogs>Catalog.V008</catalogs>
+  <catalogs>Catalog.F003_T</catalogs>
+  <catalogs>Catalog.F003</catalogs>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>

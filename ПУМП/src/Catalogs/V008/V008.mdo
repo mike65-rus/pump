@@ -42,13 +42,13 @@
     <name>ID</name>
     <synonym>
       <key>ru</key>
-      <value>ИДУсловия</value>
+      <value>ИД</value>
     </synonym>
-    <comment>ИД условия</comment>
+    <comment>ИД</comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>2</precision>
+        <precision>4</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>

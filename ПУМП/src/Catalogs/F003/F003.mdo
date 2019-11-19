@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45864b9f-dbb1-43cf-b4ef-06be984f7f2f">
+  <producedTypes>
+    <objectType typeId="5fc08593-406e-47aa-8095-820ff29f8b90" valueTypeId="53d9c842-fced-4938-9e71-6fa8d21c304d"/>
+    <refType typeId="0579fb39-6228-4b15-ad99-fd61552c19ac" valueTypeId="331574ac-8d36-42e4-92f5-6f10fed23092"/>
+    <selectionType typeId="8cd5bdc7-916b-4d73-a39b-ebe9ee87bd71" valueTypeId="61298268-2dbd-47bc-8cab-5fa065eccfbd"/>
+    <listType typeId="9a375f6f-77ba-48ef-828c-b527ac92dfb5" valueTypeId="af5c136e-08a8-4ff3-8c9b-5b3764cd3d82"/>
+    <managerType typeId="db413dd0-4012-409f-b29f-2b807a537963" valueTypeId="84aaeee6-5d67-4c70-98bc-13cfece53678"/>
+  </producedTypes>
+  <name>F003</name>
+  <synonym>
+    <key>ru</key>
+    <value>РеестрМедицинскихОрганизаций </value>
+  </synonym>
+  <comment>Реестр Медицинских Организаций </comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.F003.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.F003.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Реестр Медицинских Организаций (F003)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Реестр Медицинских Организаций (F003)</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ae0f2973-e069-4f30-9898-5dbd4efb4a64">
+    <name>TF_OKATO</name>
+    <synonym>
+      <key>ru</key>
+      <value>T f OKATO</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab7f8854-0a5c-418a-9586-0d509c71291c">
+    <name>NAM_MOP</name>
+    <synonym>
+      <key>ru</key>
+      <value>NAM MOP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bab21306-7de2-4f3b-a1ca-e39079a26098">
+    <name>NAM_MOK</name>
+    <synonym>
+      <key>ru</key>
+      <value>NAM MOK</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f29be6d-3597-4c2c-86d2-7b3b34b7ebb2">
+    <name>NAME</name>
+    <synonym>
+      <key>ru</key>
+      <value>NAME</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9924715b-6e52-4a27-88c5-7961229d4998">
+    <name>INN</name>
+    <synonym>
+      <key>ru</key>
+      <value>INN</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dfcaea91-86fa-4ec5-99b1-687cc998d703">
+    <name>OGRN</name>
+    <synonym>
+      <key>ru</key>
+      <value>OGRN</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f920e4ad-72f5-44f9-8b40-92e218a03eaa">
+    <name>KPP</name>
+    <synonym>
+      <key>ru</key>
+      <value>KPP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="937ce013-0dd8-4f59-9692-17a25ee55c91">
+    <name>INDEX_J</name>
+    <synonym>
+      <key>ru</key>
+      <value>INDEX J</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9300ddaa-910d-415a-8d80-1abe434c2294">
+    <name>ADDR_J</name>
+    <synonym>
+      <key>ru</key>
+      <value>ADDR J</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>254</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66f7363f-be09-4a9a-9c11-126462034bb2">
+    <name>OKOPF</name>
+    <synonym>
+      <key>ru</key>
+      <value>OKOPF</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08f82418-172c-4f5b-bbb9-57cde920aee4">
+    <name>VEDPRI</name>
+    <synonym>
+      <key>ru</key>
+      <value>VEDPRI</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="170932d6-d818-42d5-9e74-4fa0e32435cd">
+    <name>FAM_RUK</name>
+    <synonym>
+      <key>ru</key>
+      <value>FAM RUK</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e8d814ef-7d43-4656-80e2-42dd44fa3756">
+    <name>IM_RUK</name>
+    <synonym>
+      <key>ru</key>
+      <value>Im RUK</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="46015d3f-5bfb-467a-8fea-0cc953f945ff">
+    <name>OT_RUK</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ot RUK</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f358c6c9-d4e6-422f-9a15-43ab94f04f37">
+    <name>PHONE</name>
+    <synonym>
+      <key>ru</key>
+      <value>PHONE</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dc4cae86-81f0-4259-bc11-f6b42533380e">
+    <name>FAX</name>
+    <synonym>
+      <key>ru</key>
+      <value>FAX</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="edd53399-11a8-499c-88da-af16b1cda475">
+    <name>EMAIL</name>
+    <synonym>
+      <key>ru</key>
+      <value>EMAIL</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9fd0063-b647-4fbb-b9c7-87bb24349e99">
+    <name>SOLIST</name>
+    <synonym>
+      <key>ru</key>
+      <value>SOLIST</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5b4c649-2cb8-41f7-828a-b5a4f5e1131f">
+    <name>WWW</name>
+    <synonym>
+      <key>ru</key>
+      <value>WWW</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7bdb7ccc-593a-44f9-8338-8305bdb8e12c">
+    <name>D_BEGIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>D BEGIN</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d711c043-7a4a-4587-8bfa-dab71ca54a82">
+    <name>D_END</name>
+    <synonym>
+      <key>ru</key>
+      <value>D END</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f4469ba-89bb-4881-a045-dcf5bf6706e1">
+    <name>NAME_E</name>
+    <synonym>
+      <key>ru</key>
+      <value>NAME E</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8d684001-9ff7-4584-a99f-90cffc254c14">
+    <name>D_EDIT</name>
+    <synonym>
+      <key>ru</key>
+      <value>D EDIT</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fe893863-1282-44d9-aa1d-00d7dbeb629b">
+    <producedTypes>
+      <objectType typeId="c4851b41-c049-42e2-99ca-16f27375f676" valueTypeId="3e7e92a8-be20-4399-a3a2-e6e8d8b74e39"/>
+      <rowType typeId="9c5be71d-6d03-49bc-878d-ebc2e26812eb" valueTypeId="1cc6cd3e-0863-4912-887c-47d367a38363"/>
+    </producedTypes>
+    <name>Подразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделения</value>
+    </synonym>
+    <attributes uuid="27482553-5f3c-4ec4-bed5-99fbea3990d4">
+      <name>ID_PODR</name>
+      <synonym>
+        <key>ru</key>
+        <value>Id PODR</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>9</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9d02e8b8-be89-48a4-b868-959bf47c42fa">
+      <name>NAME_PODR</name>
+      <synonym>
+        <key>ru</key>
+        <value>NAME PODR</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>254</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="045ebce1-8fea-4bac-aa8f-4aa4584193bf">
+      <name>ADDR_P</name>
+      <synonym>
+        <key>ru</key>
+        <value>ADDR P</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>254</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="61349ff7-36d8-4cf2-9f4b-54e66287f3dc">
+      <name>TYPE_BRANCH</name>
+      <synonym>
+        <key>ru</key>
+        <value>TYPE BRANCH</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="53845266-d130-4fe3-8813-8e4f57613743">
+    <producedTypes>
+      <objectType typeId="8d3fd818-17aa-4c67-8dea-97fdb2bb13dc" valueTypeId="b194359e-3046-48f8-abd1-da234e2a4718"/>
+      <rowType typeId="d6ffd334-5717-4300-93ef-97f1ef36cf0b" valueTypeId="76a314a8-6912-427e-97ae-dc5d85aa1175"/>
+    </producedTypes>
+    <name>Документы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы</value>
+    </synonym>
+    <attributes uuid="2fd41737-1773-417d-9b43-f460fb9b6db4">
+      <name>N_DOC</name>
+      <synonym>
+        <key>ru</key>
+        <value>N DOC</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f889f369-0018-4dd3-a1ae-3099f68167b0">
+      <name>D_START</name>
+      <synonym>
+        <key>ru</key>
+        <value>D START</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c8c01183-b31c-4dea-ad86-6c5f9a7d8693">
+      <name>DATA_E</name>
+      <synonym>
+        <key>ru</key>
+        <value>DATA E</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

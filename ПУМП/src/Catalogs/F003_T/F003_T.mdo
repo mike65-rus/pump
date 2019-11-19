@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="981849d5-9379-4d45-98f7-b7e62f331a71">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="313fe17c-d3d2-4b0d-8ffb-3fbd4c9cc13e">
   <producedTypes>
-    <objectType typeId="2d7c805b-0d79-4249-97c6-9c595b2ef33b" valueTypeId="4ad477eb-e80e-4e53-88b1-308d3e308f2f"/>
-    <refType typeId="4b3d83c7-6501-49c9-bf91-d49ef1938e69" valueTypeId="737c3a7a-46e3-4cc9-ac5c-123364b3b14d"/>
-    <selectionType typeId="c4e8d2f5-d6f3-4ce5-8430-2ea502b3dfb5" valueTypeId="56c42c17-74fc-4b29-b45f-e4e5ccb33f3a"/>
-    <listType typeId="11f0357b-8d91-4102-9014-d3b7a302bc4c" valueTypeId="8728631a-6e23-407c-ae3e-1566a43ce9f7"/>
-    <managerType typeId="05fd7884-3633-4c73-9ad7-c1e1b1e95bfa" valueTypeId="f577a2d7-604a-478f-8480-c0900ed9a1ba"/>
+    <objectType typeId="200468d0-d6b4-454b-94e2-7c1235c02301" valueTypeId="4a1a3e71-7d1d-46fb-8108-e8cac0959962"/>
+    <refType typeId="0bba158d-02e6-41d7-9579-980e296fe4e9" valueTypeId="27583f13-0f8c-41de-9bd0-82ea9ba0c42c"/>
+    <selectionType typeId="1b2fa8a1-a6e8-4ae7-a368-ca6e963d8bc6" valueTypeId="88bcb6f4-890a-4b81-85f8-1c2c77947cd9"/>
+    <listType typeId="a370023c-4fe8-487e-95f8-6363640da62a" valueTypeId="d9026cd4-8838-4471-bed7-1aad42f16a54"/>
+    <managerType typeId="77f07cca-4df2-4b8d-b41c-d3e67e6ed9e7" valueTypeId="9108b8c3-31d8-4a76-8424-58d489d2f710"/>
   </producedTypes>
-  <name>V006</name>
+  <name>F003_T</name>
   <synonym>
     <key>ru</key>
-    <value>УсловияОказанияМедицинскойПомощи</value>
+    <value>Вид подразделения (филиала)</value>
   </synonym>
-  <comment>Классификатор Условий Оказания Медицинской Помощи (V006)</comment>
+  <comment>Классификатор Видов Подразделения (филиала) (F003_T)</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.V006.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.V006.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.F003_T.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.F003_T.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Условие оказания Медицинской Помощи (V006)</value>
+    <value>Виды подразделения (филиала) (F003_T)</value>
   </objectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Условия оказания Медицинской Помощи (V006)</value>
+    <value>Вид подразделения (филиала) (F003_T)</value>
   </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
@@ -38,7 +38,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="f6efe540-2243-4512-81c8-77739962e6c1">
+  <attributes uuid="bd7bf223-b3ad-40fe-ad46-7151ad5ecc1b">
     <name>ID</name>
     <synonym>
       <key>ru</key>
@@ -48,7 +48,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>2</precision>
+        <precision>6</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
@@ -56,7 +56,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0690308a-4507-4596-871c-900898a1703d">
+  <attributes uuid="238882f8-bfa6-4d8e-b901-e4503e034e9f">
     <name>NAME</name>
     <synonym>
       <key>ru</key>
@@ -71,7 +71,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="03571e0a-6b0d-484f-8cf9-39f3c6d0c816">
+  <attributes uuid="8ebae349-c024-4882-ab7d-902fa5f3fc28">
     <name>DATE_BEG</name>
     <synonym>
       <key>ru</key>
@@ -88,7 +88,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="42ac99ac-c5df-4e64-91af-a47ad79eb443">
+  <attributes uuid="57b4a53c-f95b-48a7-84e9-93498af9e312">
     <name>DATE_END</name>
     <synonym>
       <key>ru</key>
@@ -104,7 +104,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="bde6604a-c789-44c1-9531-41e4f0fb86fd">
+  <attributes uuid="96c599d8-2393-4597-9387-ffc0a5ba6c3a">
     <name>ДатаСоздания</name>
     <synonym>
       <key>ru</key>
@@ -117,7 +117,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="1466a713-9b6a-40f8-a016-0d46ba030be0">
+  <attributes uuid="ba8d1548-ad65-4c70-af6c-7a70d51dd3e3">
     <name>ДатаИзменения</name>
     <synonym>
       <key>ru</key>

@@ -9,4 +9,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.V006</content>
+  <content>Catalog.V008</content>
+  <content>Catalog.F003_T</content>
+  <content>Catalog.F003</content>
 </mdclass:Subsystem>

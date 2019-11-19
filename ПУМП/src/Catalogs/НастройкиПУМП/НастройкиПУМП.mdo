@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff0d6409-0b7b-47b8-a841-229f470e8167">
+  <producedTypes>
+    <objectType typeId="d05d3cec-35f4-41d8-9bd5-cbdca671647c" valueTypeId="11276898-506f-45b9-9695-6c3e99bfe3b7"/>
+    <refType typeId="ec1c26c1-59c6-480a-806f-0211ac940c4c" valueTypeId="ce45e1bf-fa89-4279-b14b-023d28c336c9"/>
+    <selectionType typeId="de94dc4c-4d1b-4108-8c05-58b54920ccf8" valueTypeId="8b4b74e0-3856-4cc1-a29f-8a1d3f2ce0f1"/>
+    <listType typeId="7d1be03f-43a2-4c24-921b-939e61fab278" valueTypeId="c55e8d13-16b8-452f-a49b-8732cdffc5cf"/>
+    <managerType typeId="ab55f599-c427-4f51-87ae-5da7384486e2" valueTypeId="20cb5d92-9edc-4396-803b-b778e975e0dd"/>
+  </producedTypes>
+  <name>НастройкиПУМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки ПУМП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиПУМП.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НастройкиПУМП.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="50ed7775-511c-41ad-8afe-15cbae91ef35">
+      <name>ПапкаLinux</name>
+      <description>Папка linux</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="dca88a77-ac91-4edb-9f3d-67e84cd40772">
+      <name>ПапкаWindows</name>
+      <description>Папка windows</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="7bf7d0fd-6e21-4a57-b509-2e90455b2684">
+      <name>КодТерриторииОКАТО</name>
+      <description>Код территории ОКАТО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="03e713a4-ac69-4ad4-9ad6-2c08828dac13">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>254</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

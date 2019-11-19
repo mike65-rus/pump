@@ -433,6 +433,14 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧГ=0</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧГ=0</value>
+      </editFormat>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

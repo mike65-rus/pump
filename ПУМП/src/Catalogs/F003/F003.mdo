@@ -383,6 +383,32 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="750e05f2-26dc-4938-85ae-8fc1d698f02c">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76674784-8c37-4a8e-86b7-ec607e734a12">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="fe893863-1282-44d9-aa1d-00d7dbeb629b">
     <producedTypes>
       <objectType typeId="c4851b41-c049-42e2-99ca-16f27375f676" valueTypeId="3e7e92a8-be20-4399-a3a2-e6e8d8b74e39"/>

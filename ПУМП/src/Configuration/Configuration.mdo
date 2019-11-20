@@ -419,6 +419,9 @@
   <commonPictures>CommonPicture.ЭлектронноеПисьмоВходящее</commonPictures>
   <commonPictures>CommonPicture.ЭлектронноеПисьмоИсходящее</commonPictures>
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
+  <commonPictures>CommonPicture.НСИ</commonPictures>
+  <commonPictures>CommonPicture.Администрирование</commonPictures>
+  <commonPictures>CommonPicture.Администрирование_2</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
@@ -1523,6 +1526,9 @@
   <catalogs>Catalog.V008</catalogs>
   <catalogs>Catalog.F003_T</catalogs>
   <catalogs>Catalog.F003</catalogs>
+  <catalogs>Catalog.V001_T</catalogs>
+  <catalogs>Catalog.V001_P</catalogs>
+  <catalogs>Catalog.V002</catalogs>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>

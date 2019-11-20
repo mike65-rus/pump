@@ -1373,6 +1373,13 @@
           <segments>ТЗПодразделения</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Add</excludedCommands>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
+        <excludedCommands>EndEdit</excludedCommands>
+        <excludedCommands>MoveUp</excludedCommands>
+        <excludedCommands>MoveDown</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ТЗПодразделенияID_PODR</name>
           <id>188</id>
@@ -1781,8 +1788,8 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <readOnly>true</readOnly>
         <changeRowSet>true</changeRowSet>
-        <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
@@ -1845,6 +1852,12 @@
           <segments>Объект.Документы</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Add</excludedCommands>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
+        <excludedCommands>MoveUp</excludedCommands>
+        <excludedCommands>MoveDown</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ДокументыНомерСтроки</name>
           <id>129</id>
@@ -2194,6 +2207,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <readOnly>true</readOnly>
         <changeRowSet>true</changeRowSet>
         <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>

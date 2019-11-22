@@ -18,6 +18,7 @@
   <inputByString>Catalog.V004.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
       <lang>ru</lang>

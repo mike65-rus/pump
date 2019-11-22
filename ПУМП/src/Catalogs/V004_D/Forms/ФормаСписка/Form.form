@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Должности медицинских работников (V004_D)</value>
+  </title>
   <items xsi:type="form:FormGroup">
     <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
     <id>1</id>
@@ -271,6 +275,10 @@
     <items xsi:type="form:FormField">
       <name>SPEC_NAME</name>
       <id>43</id>
+      <title>
+        <key>ru</key>
+        <value>Специальность</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -408,6 +416,55 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>SPEC_DATE_END</name>
+      <id>46</id>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.SPEC_DATE_END</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>SPEC_DATE_ENDРасширеннаяПодсказка</name>
+        <id>48</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>SPEC_DATE_ENDКонтекстноеМеню</name>
+        <id>47</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <commandBarLocation>None</commandBarLocation>
@@ -644,13 +701,14 @@
 	V004_D.ДатаИзменения,
 	V004_D.Предопределенный,
 	V004_D.ИмяПредопределенныхДанных,
-	V004.NAME КАК SPEC_NAME
+	V004.NAME КАК SPEC_NAME,
+	V004.DATE_BEG КАК SPEC_DATE_BEG,
+	V004.DATE_END КАК SPEC_DATE_END
 ИЗ
 	Справочник.V004_D КАК V004_D
 		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.V004 КАК V004
 		ПО V004_D.SPECIALMED = V004.ID</queryText>
       <mainTable>Catalog.V004_D</mainTable>
-      <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>

@@ -134,19 +134,35 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>LabelField</type>
+      <type>InputField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
+      <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <format>
+          <key>ru</key>
+          <value>ЧГ=0</value>
+        </format>
+        <editFormat>
+          <key>ru</key>
+          <value>ЧГ=0</value>
+        </editFormat>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>Наименование</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Должность</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -193,6 +209,10 @@
     <items xsi:type="form:FormField">
       <name>SPECIALMED</name>
       <id>34</id>
+      <title>
+        <key>ru</key>
+        <value>КодСпец</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -219,6 +239,64 @@
       <contextMenu>
         <name>SPECIALMEDКонтекстноеМеню</name>
         <id>35</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <format>
+          <key>ru</key>
+          <value>ЧГ=0</value>
+        </format>
+        <editFormat>
+          <key>ru</key>
+          <value>ЧГ=0</value>
+        </editFormat>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>SPEC_NAME</name>
+      <id>43</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.SPEC_NAME</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>SPEC_NAMEРасширеннаяПодсказка</name>
+        <id>45</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>SPEC_NAMEКонтекстноеМеню</name>
+        <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -552,9 +630,29 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	V004_D.Ссылка,
+	V004_D.ПометкаУдаления,
+	V004_D.Код,
+	V004_D.Наименование,
+	V004_D.ID,
+	V004_D.NAME,
+	V004_D.SPECIALMED,
+	V004_D.DATE_BEG,
+	V004_D.DATE_END,
+	V004_D.ДатаСоздания,
+	V004_D.ДатаИзменения,
+	V004_D.Предопределенный,
+	V004_D.ИмяПредопределенныхДанных,
+	V004.NAME КАК SPEC_NAME
+ИЗ
+	Справочник.V004_D КАК V004_D
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.V004 КАК V004
+		ПО V004_D.SPECIALMED = V004.ID</queryText>
       <mainTable>Catalog.V004_D</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>

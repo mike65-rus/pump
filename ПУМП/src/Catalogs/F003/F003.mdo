@@ -415,6 +415,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1d4134a6-cd28-4f43-aaba-ad45b1dc0b82">
+    <name>ВведенВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен вручную</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="fe893863-1282-44d9-aa1d-00d7dbeb629b">
     <producedTypes>
       <objectType typeId="c4851b41-c049-42e2-99ca-16f27375f676" valueTypeId="3e7e92a8-be20-4399-a3a2-e6e8d8b74e39"/>

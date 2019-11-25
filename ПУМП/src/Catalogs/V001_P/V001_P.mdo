@@ -44,6 +44,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.V001_P.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.V001_P.Form.ФормаСписка</defaultListForm>
   <attributes uuid="e5c263de-c5cb-4cac-867e-89e88a794500">
     <name>ID</name>
     <synonym>
@@ -153,6 +154,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2625bf69-5bff-4e70-bb43-5bc35447c4c0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

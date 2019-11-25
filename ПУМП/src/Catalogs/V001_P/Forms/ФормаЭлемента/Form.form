@@ -4,7 +4,6 @@
     <name>Код</name>
     <id>1</id>
     <visible>true</visible>
-    <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>

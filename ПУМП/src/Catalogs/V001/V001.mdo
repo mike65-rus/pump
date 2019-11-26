@@ -44,6 +44,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.V001.Form.ФормаСписка</defaultListForm>
   <attributes uuid="b7d5a4d1-e1ef-4672-8f40-f92acf41b8e0">
     <name>ID</name>
     <synonym>
@@ -307,4 +308,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="5fcef777-b4d2-4a31-b8f0-bc3d5739037a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

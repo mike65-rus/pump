@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a519e337-9fdb-4aec-b022-c13bee72c74e">
+  <producedTypes>
+    <objectType typeId="a5b7d1f6-f4d8-4a99-aea3-9374e4b16388" valueTypeId="c2067ffd-1d4b-4421-b2bd-e96912b36672"/>
+    <refType typeId="160fc80e-cb70-40db-aff4-0987ac6d1c7f" valueTypeId="1bdcb643-f7e4-4bca-a9a7-2b33ab82700a"/>
+    <selectionType typeId="bd9a1af8-90cf-4538-b0d4-8e6bc731a1b3" valueTypeId="a595056c-ac09-4e87-ab3c-379b2ca89f75"/>
+    <listType typeId="d4da2e1e-ce55-411b-bfd0-0302c8464955" valueTypeId="680dfbd4-d5cd-4e08-8544-e9e9c5e21d9d"/>
+    <managerType typeId="30be008f-120b-46f1-9afe-d19abfde4d65" valueTypeId="69fa9f4d-0c14-46a7-8aed-e33489b3b742"/>
+  </producedTypes>
+  <name>V003</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работы (услуги) при лицензировании медицинской помощи</value>
+  </synonym>
+  <comment>Работы (услуги) при лицензировании медицинской помощи</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.V003.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.V003.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Работы (услуги) при лицензировании медицинской помощи (V003)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Работы (услуги) при лицензировании медицинской помощи (V003)</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>4</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>20</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2225ca0c-9f72-4417-afeb-a97909341ba2">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИД</value>
+    </synonym>
+    <comment>ИД</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="053a94ff-0c86-4e14-bcc9-a878ac70de0f">
+    <name>NAME</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование в НСИ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>254</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d26d81d-2987-4343-bba5-e056a054404b">
+    <name>IERARH</name>
+    <synonym>
+      <key>ru</key>
+      <value>IERARH</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07c01ecf-1d5e-4ece-bd16-611772d6529f">
+    <name>IS_GROUP</name>
+    <synonym>
+      <key>ru</key>
+      <value>I s GROUP</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b01956f3-6f06-44d9-9d0c-ff63694fc85c">
+    <name>DATE_BEG</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДатаНачала</value>
+    </synonym>
+    <comment>Дата начала</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="656e4980-76a7-4c6e-9aa3-c5c1ac57502d">
+    <name>DATE_END</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДатаОкончания</value>
+    </synonym>
+    <comment>Дата окончания</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="840de687-896c-44ac-8021-2ab8bf419def">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d753aed-2328-40c6-a0bd-4ebf76702923">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="465582d9-fca1-45d6-bf4c-29eeed601da7">
+    <name>ВведенВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен вручную</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="742b366e-d4ae-4c85-af25-2952ca3505ad">
+    <producedTypes>
+      <objectType typeId="2a461ece-5c1b-41f9-9f00-58471bd3446b" valueTypeId="38e22bf6-1db3-4805-9789-77bc6675047d"/>
+      <rowType typeId="ecd85e02-367d-49a0-b289-92ebf9e5677e" valueTypeId="3b4eb315-80ba-4c75-ba9c-e3ddf5eaf3a6"/>
+    </producedTypes>
+    <name>Специальности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальности</value>
+    </synonym>
+    <attributes uuid="fcf742e6-880e-459b-89a3-45509c7ca7ae">
+      <name>SPECIALMED</name>
+      <synonym>
+        <key>ru</key>
+        <value>КодСпециальности</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>9</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="aaec79c9-e1ed-46ed-8764-0493e3afe1c3">
+    <producedTypes>
+      <objectType typeId="e1075902-543a-47ce-9c9f-ec7e8d9d0a8a" valueTypeId="a681fe32-04d0-4616-89b0-70dc9ba589d0"/>
+      <rowType typeId="b2e2d204-aced-41cc-9119-a13df075fc44" valueTypeId="455a07dc-57cb-4a9d-b49c-a874e6d0cd1d"/>
+    </producedTypes>
+    <name>Профили</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профили</value>
+    </synonym>
+    <attributes uuid="6b2b6043-6624-4e5d-877d-a0d1d7e0e7f3">
+      <name>PROFMEDHELP</name>
+      <synonym>
+        <key>ru</key>
+        <value>Профиль</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

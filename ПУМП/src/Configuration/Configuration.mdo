@@ -1534,6 +1534,11 @@
   <catalogs>Catalog.V004_D</catalogs>
   <catalogs>Catalog.V001</catalogs>
   <catalogs>Catalog.V003</catalogs>
+  <catalogs>Catalog.SK007</catalogs>
+  <catalogs>Catalog.SK006</catalogs>
+  <catalogs>Catalog.V005</catalogs>
+  <catalogs>Catalog.V010</catalogs>
+  <catalogs>Catalog.V012</catalogs>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>

@@ -50,6 +50,13 @@
         <value>000000003</value>
       </code>
     </items>
+    <items id="e8be7b28-6e22-4e1d-af47-e47173e0e340">
+      <name>КодЛПУ</name>
+      <description>Код ЛПУ в ТФОМС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

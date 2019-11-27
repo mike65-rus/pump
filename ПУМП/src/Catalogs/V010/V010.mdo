@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac6b2294-7441-4bde-a81f-e7465509b750">
+  <producedTypes>
+    <objectType typeId="6247ca47-1597-4bf8-92ad-fa4d8b4df4a5" valueTypeId="315b551a-804a-4dc5-a747-989a25db1bfd"/>
+    <refType typeId="4e1e3d56-03db-4722-8650-1d4c62d8ea82" valueTypeId="bb80c8a7-77ac-49d8-9a9e-f552d4e17c96"/>
+    <selectionType typeId="c3762fce-0a17-417c-917e-a4977d3204f6" valueTypeId="2384f490-7cff-4adb-8d0e-9c6ed9e84eea"/>
+    <listType typeId="eac5a621-e730-4cc7-be07-3a15423263bf" valueTypeId="dd49c1ff-a765-403c-ada4-601392a7d437"/>
+    <managerType typeId="feb70a68-d64a-4831-98c4-15bc2fd9b486" valueTypeId="53467c8f-ddda-4bec-be08-9dc11588dd27"/>
+  </producedTypes>
+  <name>V010</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы оплаты медицинской помощи</value>
+  </synonym>
+  <comment>способы оплаты медицинской помощи</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.V010.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.V010.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Способы оплаты медицинской помощи (V010)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Способы оплаты медицинской помощи (V010)</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>20</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.V010.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="2aa5222d-cc58-4917-a2e4-fe2ddedc2493">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИД</value>
+    </synonym>
+    <comment>ИД</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8a863542-64a7-4ba5-b2c2-0b94516257af">
+    <name>NAME</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование в НСИ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>254</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fbdc9ffd-e5ad-4996-abf3-d04be6dd4904">
+    <name>DATE_BEG</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДатаНачала</value>
+    </synonym>
+    <comment>Дата начала</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0307fe95-448c-46ec-8ce0-2346655e3813">
+    <name>DATE_END</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДатаОкончания</value>
+    </synonym>
+    <comment>Дата окончания</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08186d75-c183-4fe6-bd56-d2d9756ac09d">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be27dc33-3015-46ca-b8e5-4c6966ec6e3b">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="890f930d-3b16-41bc-ab7a-45b1cfdbfd4b">
+    <name>ВведенВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен вручную</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="972adcde-e1e4-477c-99cc-1405ddae1e9a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

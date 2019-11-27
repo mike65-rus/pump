@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af21ac14-618e-416e-b1b8-cd25f3377e2f">
+  <producedTypes>
+    <objectType typeId="69c12ba7-15be-4183-814b-9bd85043961c" valueTypeId="9a1a049d-b8d6-430c-920b-4784476b2d9c"/>
+    <refType typeId="7687fe5a-064d-487e-94e4-b11ea3886e65" valueTypeId="ac48cb6b-6c3f-44e9-a013-631b5556b461"/>
+    <selectionType typeId="a050bbc8-9389-47ca-9665-23e8bd8fb2d1" valueTypeId="858a0d44-01b8-4742-886e-ed4094ae8991"/>
+    <listType typeId="2fe8855c-30cf-4c61-bbbb-f2382f94143e" valueTypeId="d69db95d-c058-4290-b111-835904454190"/>
+    <managerType typeId="65a4d983-149d-45b4-baa5-8a8c3c43f7c9" valueTypeId="28895664-718e-49d6-855c-03424b26393b"/>
+  </producedTypes>
+  <name>SK007</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицензии медицинской организации</value>
+  </synonym>
+  <comment>Лицензии медицинской организации</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.SK007.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.SK007.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Лицензии медицинской организации (SK007)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Лицензии медицинской организации (SK007)</value>
+  </listPresentation>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>4</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>38</codeLength>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.SK007.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.SK007.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="d5ed8334-c5e2-4ec5-b253-db0674cdabe0">
+    <name>NUMBER</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование в НСИ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>254</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e7be2687-d55f-468e-9b99-b39241959f7c">
+    <name>LPU</name>
+    <synonym>
+      <key>ru</key>
+      <value>КодЛПУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="432a5b5f-eb7a-438c-ade4-4e2f378c32a1">
+    <name>LPU_PODR</name>
+    <synonym>
+      <key>ru</key>
+      <value>КодПодразделения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e3feae90-490a-4288-8199-034e833cecb3">
+    <name>DATE_BEG</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДатаНачала</value>
+    </synonym>
+    <comment>Дата начала</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0e0477e-5b2c-4c4c-82eb-e9ee21aa5223">
+    <name>DATE_END</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДатаОкончания</value>
+    </synonym>
+    <comment>Дата окончания</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7242d9b5-57e6-4d98-92a6-dbbc2071b10d">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="040a78b2-3fa0-43ba-aa45-26e7b9274c37">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="01e28e86-73ca-4770-9893-95ede9e9f4f2">
+    <name>ВведенВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен вручную</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="3a894aa1-addc-46d4-8ad9-248e0df035d9">
+    <producedTypes>
+      <objectType typeId="4b1aac68-a878-40f7-87f5-e94562e92f2f" valueTypeId="289c5c88-c0de-48c2-9aa9-cbc250f78cd4"/>
+      <rowType typeId="51389eb0-1587-41fa-8aef-b72a56f343df" valueTypeId="2b5cb5f1-c7b9-48f2-bc3a-c9b6fe85aa84"/>
+    </producedTypes>
+    <name>Услуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги</value>
+    </synonym>
+    <attributes uuid="33f5f5b1-b59d-4a89-9f05-b807e07d6d84">
+      <name>CODE_USL</name>
+      <synonym>
+        <key>ru</key>
+        <value>КодУслуги</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>9</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="fa36070b-e903-40e1-b4b6-46dea10872ce">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6c2bac37-b8c3-4c56-aaf2-145657c1059c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

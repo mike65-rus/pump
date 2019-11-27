@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba1cebc1-9cdf-4090-a6eb-8ea5da053f61">
+  <producedTypes>
+    <objectType typeId="9af7e06f-182a-482d-ae13-be9e0dd88fb3" valueTypeId="f16b89ab-0689-4fc2-8eb6-db467a693570"/>
+    <refType typeId="ffb22cd9-d332-461c-b58f-f2f903684e9c" valueTypeId="8e25b3dd-663e-40a4-840e-c86535c725d0"/>
+    <selectionType typeId="cc14b03e-ec71-4f9a-8bde-4273376d577e" valueTypeId="e1892dd4-14d1-48e3-855c-91f47f9abe24"/>
+    <listType typeId="1a10f6d1-2eb7-469f-abcd-e4e208c0cdff" valueTypeId="4a04d16e-f9a3-4307-92bb-8a2d3ecf26ec"/>
+    <managerType typeId="01910470-b398-4180-a76e-cc227da538f1" valueTypeId="a8708177-07ec-4d45-87b0-27f00a55aafa"/>
+  </producedTypes>
+  <name>V005</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор пола застрахованного лица (V005)</value>
+  </synonym>
+  <comment>Классификатор пола застрахованного лица</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.V005.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.V005.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>1</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

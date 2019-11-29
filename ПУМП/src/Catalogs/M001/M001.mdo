@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef302368-6e82-442f-9c72-ff6cc5cb5d49">
+  <producedTypes>
+    <objectType typeId="f265ce27-2075-4b51-8243-bb85aa72be64" valueTypeId="5a11d72d-0332-49a1-ade7-d4d8f243d3c4"/>
+    <refType typeId="fc3ccaf8-7989-4924-821e-b824d2d61d9c" valueTypeId="cb222bf2-3eeb-46aa-99c9-64cd05423e7f"/>
+    <selectionType typeId="a04dafa1-8359-4e16-8f35-704fe78d9b25" valueTypeId="a69bf840-0a3e-4429-b857-86167377c8e5"/>
+    <listType typeId="66541072-0904-42ed-a119-88d8ffdb5c10" valueTypeId="a0b2fa1a-e2ce-425e-807e-c674311ad420"/>
+    <managerType typeId="34499392-c028-4ae4-a943-8a44d524c8c0" valueTypeId="ec8fbc87-ab13-4188-9da1-c68201329bb0"/>
+  </producedTypes>
+  <name>M001</name>
+  <synonym>
+    <key>ru</key>
+    <value>МКБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.M001.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.M001.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Международный классификатор болезней (M001)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Международный классификатор болезней (M001)</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>4</levelCount>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="70b4c8fd-7c7c-4656-aa36-28595bfc8863">
+    <name>DATE_BEG</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДатаНачала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96864237-6894-4619-8e46-d355d53374fe">
+    <name>DATE_END</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДатаОкончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

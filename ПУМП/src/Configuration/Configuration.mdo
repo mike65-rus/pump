@@ -1540,6 +1540,7 @@
   <catalogs>Catalog.V010</catalogs>
   <catalogs>Catalog.V012</catalogs>
   <catalogs>Catalog.V009</catalogs>
+  <catalogs>Catalog.M001</catalogs>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>

@@ -3,9 +3,9 @@
   <name>НСИ</name>
   <synonym>
     <key>ru</key>
-    <value>НСИ-СКФОМС</value>
+    <value>НСИ</value>
   </synonym>
-  <comment>НСИ-СКФОМС</comment>
+  <comment>Нормативно-справочная информация</comment>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
@@ -34,4 +34,6 @@
   <content>Catalog.V012</content>
   <content>Catalog.V009</content>
   <content>Catalog.M001</content>
+  <subsystems>СКФОМС</subsystems>
+  <subsystems>МЗРФ</subsystems>
 </mdclass:Subsystem>

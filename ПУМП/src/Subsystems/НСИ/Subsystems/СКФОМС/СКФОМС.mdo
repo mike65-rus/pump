@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e2555a6-097d-406f-ac64-3c966467067a">
+  <name>СКФОМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>СКФОМС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.V006</content>
+  <content>Catalog.V001_T</content>
+  <content>Catalog.SK006</content>
+  <content>Catalog.V005</content>
+  <content>Catalog.V008</content>
+  <content>Catalog.V010</content>
+  <content>Catalog.V009</content>
+  <content>Catalog.M001</content>
+  <content>Catalog.V001</content>
+  <content>Catalog.V001_P</content>
+  <content>Catalog.V004</content>
+  <content>Catalog.V004_D</content>
+  <content>Catalog.V012</content>
+  <content>Catalog.F003</content>
+  <content>Catalog.V002</content>
+  <content>Catalog.V003</content>
+  <content>Catalog.F003_T</content>
+  <content>Catalog.SK007</content>
+  <parentSubsystem>Subsystem.НСИ</parentSubsystem>
+</mdclass:Subsystem>

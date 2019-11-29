@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e851289-3cf0-475e-9702-5a0a523082ae">
+  <name>МЗРФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>МЗ РФ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СправочникиМЗРФ</content>
+  <content>Catalog.ТипыСправочниковМЗРФ</content>
+  <content>Catalog.МЗРФ_МКБ</content>
+  <parentSubsystem>Subsystem.НСИ</parentSubsystem>
+</mdclass:Subsystem>

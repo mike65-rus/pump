@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f5489cb-0b30-4681-b55a-249bc442a18c">
+  <producedTypes>
+    <objectType typeId="69a49a8e-a25f-4ae9-9c9f-7014a9d90881" valueTypeId="9c2d33fa-e7cb-46e0-b231-fe38d667a279"/>
+    <refType typeId="1bb8f5e9-0309-41bb-b80c-6e99b520f991" valueTypeId="5b8f263b-c28e-4ce1-872a-7c02a9fbc3d9"/>
+    <selectionType typeId="8c2f019c-793d-4070-a825-650dfdec47f5" valueTypeId="11a1c700-b9de-430a-b5c4-0304fd52482b"/>
+    <listType typeId="450841db-f369-46af-9152-e9489f584fcc" valueTypeId="e6264ebb-22b2-46e5-9d98-1c4f9895bcd7"/>
+    <managerType typeId="2c661a2d-a3e9-4c89-81f8-65ab8b682826" valueTypeId="1224db1b-449a-42d7-b85d-30e1304116d1"/>
+  </producedTypes>
+  <name>МЗРФ_МКБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>МЗРФ МКБ</value>
+  </synonym>
+  <comment>МКБ-10</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МЗРФ_МКБ.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МЗРФ_МКБ.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>МЗРФ.МКБ-10</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>МЗРФ.МКБ-10</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.МЗРФ_МКБ.Form.ФормаСписка</defaultListForm>
+  <forms uuid="0516e96e-f0ce-4423-aa59-0ec13a16b188">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1541,6 +1541,9 @@
   <catalogs>Catalog.V012</catalogs>
   <catalogs>Catalog.V009</catalogs>
   <catalogs>Catalog.M001</catalogs>
+  <catalogs>Catalog.СправочникиМЗРФ</catalogs>
+  <catalogs>Catalog.ТипыСправочниковМЗРФ</catalogs>
+  <catalogs>Catalog.МЗРФ_МКБ</catalogs>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>

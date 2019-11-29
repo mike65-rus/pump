@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de85a9f4-f82d-4333-88d3-662b5377196f">
+  <producedTypes>
+    <objectType typeId="7bb022ab-5612-4b90-a846-36b4ead1ef46" valueTypeId="92ceb7d5-878e-4fad-a76f-6f290342a961"/>
+    <refType typeId="209c708d-a5f9-4dbe-b347-734dde6634d4" valueTypeId="45f1311e-27a3-4e30-b949-bc358b2262c3"/>
+    <selectionType typeId="4bceda14-4efb-4716-b710-55149e8cdad2" valueTypeId="42dca52b-d8f0-4557-869d-232690ad9853"/>
+    <listType typeId="e167342a-df8a-4379-9dd0-4ad1dd6013f0" valueTypeId="7b9126cc-2215-4ba3-b631-5f377c1fa88b"/>
+    <managerType typeId="2d29148a-d8ed-484f-877a-8384c943aa8a" valueTypeId="b3e9cea1-ba5a-4d4a-ae19-f6494b0ec60d"/>
+  </producedTypes>
+  <name>СправочникиМЗРФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники МЗРФ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СправочникиМЗРФ.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СправочникиМЗРФ.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <codeLength>30</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.СправочникиМЗРФ.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="f66878c5-35f2-40e1-afb0-c9c9465ce029">
+    <name>OID</name>
+    <synonym>
+      <key>ru</key>
+      <value>OID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d20597e-d21b-44b2-8bfb-eadd35768e57">
+    <name>OID_Долнительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>OID долнительный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b7be0087-5d0b-4156-800e-107a29fa6f75">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4e95ed24-fd85-4adb-99a8-341bd539f23b">
+    <name>ТипСправочника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип справочника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСправочниковМЗРФ</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7f8a1dc9-3480-45d4-87b1-e4de05e63c7e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

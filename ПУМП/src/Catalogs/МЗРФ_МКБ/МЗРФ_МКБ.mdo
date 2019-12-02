@@ -30,8 +30,7 @@
   </listPresentation>
   <hierarchical>true</hierarchical>
   <limitLevelCount>true</limitLevelCount>
-  <levelCount>4</levelCount>
-  <foldersOnTop>true</foldersOnTop>
+  <levelCount>5</levelCount>
   <codeLength>9</codeLength>
   <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>

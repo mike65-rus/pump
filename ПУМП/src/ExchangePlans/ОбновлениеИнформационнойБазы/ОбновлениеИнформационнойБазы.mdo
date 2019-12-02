@@ -138,6 +138,10 @@
     <mdObject>InformationRegister.ВерсииОбъектов</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.СправочникиМЗРФПрисоединенныеФайлы</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Constant.ДатаУведомленияОНовыхЗадачах</mdObject>
   </content>
   <content>

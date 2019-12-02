@@ -13,6 +13,7 @@
     <types>CatalogRef.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
     <types>CatalogRef.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</types>
     <types>CatalogRef.Файлы</types>
+    <types>CatalogRef.СправочникиМЗРФПрисоединенныеФайлы</types>
     <types>CatalogRef.СообщениеSMSПрисоединенныеФайлы</types>
     <types>CatalogRef.ВстречаПрисоединенныеФайлы</types>
     <types>CatalogRef.ВерсииФайлов</types>

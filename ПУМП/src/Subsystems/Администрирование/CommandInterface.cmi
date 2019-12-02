@@ -290,10 +290,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>DataProcessor.ЖурналРегистрации.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>DataProcessor.ЗагрузкаДанныхИзФайла.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -439,6 +435,10 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>DataProcessor.ИнформацияПриЗапуске.Command.ИнформацияПриЗапуске</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ЖурналРегистрации.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>

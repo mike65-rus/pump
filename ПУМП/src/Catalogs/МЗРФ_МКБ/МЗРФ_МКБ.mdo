@@ -28,17 +28,149 @@
     <key>ru</key>
     <value>МЗРФ.МКБ-10</value>
   </listPresentation>
-  <levelCount>2</levelCount>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>4</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
-  <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultListForm>Catalog.МЗРФ_МКБ.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="1f835eb6-4eb3-4c79-b49c-547af06f8d7c">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90e7ce97-c6f6-469f-a7cf-717d310f74f5">
+    <name>REC_CODE</name>
+    <synonym>
+      <key>ru</key>
+      <value>REC CODE</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="047f6e2d-4ed9-4e59-94ac-665b67e7edb4">
+    <name>MKB_CODE</name>
+    <synonym>
+      <key>ru</key>
+      <value>MKB CODE</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b44d766-e487-47aa-9b9c-eb447be6c0ce">
+    <name>MKB_NAME</name>
+    <synonym>
+      <key>ru</key>
+      <value>MKB NAME</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b6ba9669-7cc5-4a6f-a700-66792f831afc">
+    <name>ID_PARENT</name>
+    <synonym>
+      <key>ru</key>
+      <value>I d PARENT</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="22e169f3-8c8f-454c-80b8-174b8d7a80a0">
+    <name>ADDL_CODE</name>
+    <synonym>
+      <key>ru</key>
+      <value>ADDL CODE</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24fa5b52-b66a-4535-9d92-932ef0ebcd80">
+    <name>ACTUAL</name>
+    <synonym>
+      <key>ru</key>
+      <value>ACTUAL</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7957646f-40d1-4cba-84ec-fde957f8aeea">
+    <name>DATE</name>
+    <synonym>
+      <key>ru</key>
+      <value>DATE</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="0516e96e-f0ce-4423-aa59-0ec13a16b188">
     <name>ФормаСписка</name>
     <synonym>

@@ -143,7 +143,7 @@
       <value>Размещение</value>
     </synonym>
     <type>
-      <types>CatalogRef.ТипыСправочниковМЗРФ</types>
+      <types>CatalogRef.СправочникиМЗРФ</types>
     </type>
     <toolTip>
       <key>ru</key>
@@ -151,7 +151,6 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>

@@ -19,5 +19,6 @@
     <types>CatalogRef.ШаблоныСообщений</types>
     <types>DocumentRef.СообщениеSMS</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogRef.СправочникиМЗРФ</types>
   </type>
 </mdclass:DefinedType>

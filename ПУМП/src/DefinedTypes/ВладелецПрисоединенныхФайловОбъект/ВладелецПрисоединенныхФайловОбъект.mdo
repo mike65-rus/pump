@@ -13,5 +13,6 @@
     <types>CatalogObject.ШаблоныСообщений</types>
     <types>BusinessProcessObject.Задание</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogObject.СправочникиМЗРФ</types>
   </type>
 </mdclass:DefinedType>

@@ -3,13 +3,13 @@
   <commandsPlacement>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>Catalog.ТипыСправочниковМЗРФ.StandardCommand.OpenList</commands>
+      <commands>Catalog.МЗРФ_МКБ.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>Catalog.ТипыСправочниковМЗРФ.StandardCommand.OpenList</commands>
+      <commands>Catalog.МЗРФ_МКБ.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

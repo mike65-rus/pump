@@ -1546,6 +1546,8 @@
   <catalogs>Catalog.СправочникиМЗРФ</catalogs>
   <catalogs>Catalog.СправочникиМЗРФПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.МЗРФ_МКБ</catalogs>
+  <catalogs>Catalog.СправочникиСКФОМС</catalogs>
+  <catalogs>Catalog.F003_O</catalogs>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>

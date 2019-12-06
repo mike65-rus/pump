@@ -3,21 +3,15 @@
   <commandsPlacement>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>Catalog.F003_T.StandardCommand.OpenList</commands>
-      <commands>Catalog.SK006.StandardCommand.OpenList</commands>
-      <commands>Catalog.V003.StandardCommand.OpenList</commands>
-      <commands>Catalog.V005.StandardCommand.OpenList</commands>
-      <commands>Catalog.V010.StandardCommand.OpenList</commands>
+      <commands>Catalog.V001.StandardCommand.OpenList</commands>
+      <commands>Catalog.V004.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>Catalog.F003_T.StandardCommand.OpenList</commands>
-      <commands>Catalog.SK006.StandardCommand.OpenList</commands>
-      <commands>Catalog.V003.StandardCommand.OpenList</commands>
-      <commands>Catalog.V005.StandardCommand.OpenList</commands>
-      <commands>Catalog.V010.StandardCommand.OpenList</commands>
+      <commands>Catalog.V001.StandardCommand.OpenList</commands>
+      <commands>Catalog.V004.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

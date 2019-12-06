@@ -1,39 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63e2c93f-fd6b-40d7-acfc-4b62a5e2d1d2">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf19db05-96ab-45cd-bb30-464ad2a2fdac">
   <name>НСИ</name>
   <synonym>
     <key>ru</key>
     <value>НСИ</value>
   </synonym>
-  <comment>Нормативно-справочная информация</comment>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.НСИ</picture>
   </picture>
-  <content>Catalog.V006</content>
-  <content>Catalog.V008</content>
-  <content>Catalog.F003_T</content>
-  <content>Catalog.F003</content>
-  <content>Catalog.V001_T</content>
-  <content>Catalog.V001_P</content>
-  <content>Catalog.V002</content>
-  <content>Catalog.V004</content>
-  <content>Catalog.V004_D</content>
-  <content>Catalog.V001</content>
-  <content>Catalog.V003</content>
-  <content>Catalog.SK007</content>
-  <content>Catalog.SK006</content>
-  <content>Catalog.V005</content>
-  <content>Catalog.V010</content>
-  <content>Catalog.V012</content>
-  <content>Catalog.V009</content>
-  <content>Catalog.M001</content>
   <subsystems>СКФОМС</subsystems>
   <subsystems>МЗРФ</subsystems>
 </mdclass:Subsystem>

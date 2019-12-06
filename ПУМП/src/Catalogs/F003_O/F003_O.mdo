@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06bc2760-333c-4091-a30d-141d74e0a3b2">
+  <producedTypes>
+    <objectType typeId="dba35144-a3eb-46b1-a304-134b3462fe94" valueTypeId="98086f30-1395-47ed-914d-abcf12f74f58"/>
+    <refType typeId="e710db25-f365-4463-8dbc-7ed567e52ff7" valueTypeId="3805b3ba-11cb-4783-827e-eae5b86b7281"/>
+    <selectionType typeId="67c44eab-03cd-4d36-9be4-7653c18efabd" valueTypeId="f3579e62-f344-4f6d-9c04-caa85ed4cd5a"/>
+    <listType typeId="32a3e4a2-c0f5-4ea2-8829-7f7c798dd944" valueTypeId="ae4e32a6-3d89-41c1-af8a-081e407153bb"/>
+    <managerType typeId="ee955851-384b-4e55-9a7c-4453928b4593" valueTypeId="749a4c3e-78d4-4cef-a557-da1e7bf37484"/>
+  </producedTypes>
+  <name>F003_O</name>
+  <synonym>
+    <key>ru</key>
+    <value>F003 O</value>
+  </synonym>
+  <comment>Отделения Медицинских организаций</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.F003_O.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.F003_O.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Отделения Медицинских организаций (F003_O)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Отделения Медицинских организаций (F003_O)</value>
+  </listPresentation>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.F003_O.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="2f779c0c-c42a-40d5-8f32-5f4659ad3f0d">
+    <name>MCOD</name>
+    <synonym>
+      <key>ru</key>
+      <value>MCOD</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e89e407-4a34-4749-881d-1487dedc6d30">
+    <name>ID_PODR</name>
+    <synonym>
+      <key>ru</key>
+      <value>I d PODR</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bb6cb539-219e-471f-b409-ba3ae0c2d85f">
+    <name>USL_OK</name>
+    <synonym>
+      <key>ru</key>
+      <value>USL OK</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5776f15-c3ed-4a7d-b162-d06451772caa">
+    <name>PROF</name>
+    <synonym>
+      <key>ru</key>
+      <value>PROF</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b34ea0dc-18e4-4123-a59c-6bbbc7c272f6">
+    <name>DATE_BEG</name>
+    <synonym>
+      <key>ru</key>
+      <value>DATE BEG</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3fcb2927-2efb-4e20-bd1c-2f7f2c258710">
+    <name>DATE_END</name>
+    <synonym>
+      <key>ru</key>
+      <value>DATE END</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c87933aa-9875-40c7-be66-dd3b13d191fc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9938fa91-06e5-4949-96e2-141408c895a2">
+  <producedTypes>
+    <objectType typeId="4a37cb64-a903-4730-9f5a-bc7e42cdd2a9" valueTypeId="ac3c2470-65d0-4593-818d-cacc303c040a"/>
+    <refType typeId="2fb388e5-f7a6-47c7-9c72-b096021de78c" valueTypeId="9c20a948-45cb-49ed-ab1f-f0c4903ac7b3"/>
+    <selectionType typeId="3a60ee2c-9cf9-46d2-92dd-48d5cf9e17b8" valueTypeId="df870e02-b9f4-4fe9-871f-ebc40d33db77"/>
+    <listType typeId="71c70254-c8a5-42a7-9b41-34f1c769461b" valueTypeId="c3691800-63f8-4f3c-be71-72fc93e5941d"/>
+    <managerType typeId="0fe0468d-2fdc-4ed5-968e-aec6c7d77c35" valueTypeId="41748ed7-a296-4c1d-986f-fab123811078"/>
+  </producedTypes>
+  <name>СправочникиСКФОМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники СКФОМС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СправочникиСКФОМС.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СправочникиСКФОМС.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Справочник СКФОМС</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Справочники СКФОМС</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СправочникиСКФОМС.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СправочникиСКФОМС.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="5e4dc98a-3572-452c-8da0-bf9e61ca5d4f">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ecfb0c16-8413-448d-bab4-8c8de8c7d1ac">
+    <name>ЗагружаетсяВСистему</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружается в систему</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9caab2da-7e7e-4d10-96f3-fc9f6f44cb9b">
+    <name>ДатаПоследнейЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней загрузки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="69f24b06-c1b6-47f2-a40b-31ab09c7326e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7be5a96c-cfc1-4b4d-b0b8-18b114a6a8ff">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
